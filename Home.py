@@ -6,7 +6,7 @@ import os
 
 # ---------- LAYOUT SETTINGS ----------
 st.set_page_config(
-    page_title="Roominate Survey", 
+    page_title="Roominate", 
     layout="wide", 
     page_icon="🏠")
 
