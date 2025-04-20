@@ -179,5 +179,5 @@ if st.session_state.survey_page == "preferences":
 
         st.session_state.responses.update(roommate_data)
         collection.insert_one(st.session_state.responses)
-        st.success("🎉 Your full survey has been submitted to the database; you can now close this tab or return to the home page. Thank you! \nBe on the lookout for our matchings (via email)! :)")
+        st.success("🎉 Your full survey has been submitted to the database.\n\nYou can now close this tab or return to the home page. Thank you! \n\nBe on the lookout for our matchings (via email)! :)")
         st.session_state.survey_page = "done"
