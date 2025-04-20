@@ -16,10 +16,10 @@ if "responses" not in st.session_state:
     st.session_state.responses = {}
 
 # ---------- START OF HOME PAGE ----------
-image_path = "roominate_banner.jpg"
-# image_path = "roominate_banner_no_text.png"
-# image_path = "roominate_full_room_banner.jpg"
-image_path = "roominate_shorter.png"
+image_path = "assets/roominate_banner.jpg"
+# image_path = "assets/roominate_banner_no_text.png"
+# image_path = "assets/roominate_full_room_banner.jpg"
+image_path = "assets/roominate_shorter.png"
 
 if os.path.exists(image_path):
     # Parameters: image.crop
