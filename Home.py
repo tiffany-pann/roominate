@@ -7,7 +7,8 @@ import os
 # ---------- LAYOUT SETTINGS ----------
 st.set_page_config(
     page_title="Roominate", 
-    layout="wide", 
+    layout="wide",
+    initial_sidebar_state="expanded",
     page_icon="🏠")
 
 if "responses" not in st.session_state:
