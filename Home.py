@@ -5,11 +5,9 @@ from PIL import Image
 import os
 
 # ---------- LAYOUT SETTINGS ----------
-
 st.set_page_config(
     page_title="Roominate Survey", 
     layout="wide", 
-    initial_sidebar_state="expanded",
     page_icon="🏠")
 
 if "responses" not in st.session_state:
@@ -34,7 +32,7 @@ else:
         "no image called roominate_banner.jpg"
     )
 
-# TODO: ADD SOME BRANDING HERE PROBABLY
+# TODO: ADD SOME BRANDING HERE PROBABLY...
 
 st.title("First time with us?")
 st.markdown(

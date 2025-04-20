@@ -185,3 +185,4 @@ if st.session_state.survey_page == "preferences":
 if st.session_state.survey_page == "done":
     st.header("🎉 Thank you!")
     st.markdown("Your responses have been successfully submitted. You can now close this tab or return to the home page.")
+    st.markdown("Be on the lookout for our matchings (via email)! :)")
