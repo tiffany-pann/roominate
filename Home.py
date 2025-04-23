@@ -48,7 +48,6 @@ st.markdown(
     border: 2px solid #f63366;
     border-radius: 10px;
     padding: 1rem;
-    background-color: #fff0f5;
     margin-top: 1.5rem;
 }
 </style>
