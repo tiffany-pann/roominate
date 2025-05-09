@@ -34,6 +34,8 @@ if st.session_state.survey_page == "about_you":
     year = st.selectbox("What year are you?", ["Freshman", "Sophomore", "Junior", "Senior", "Graduate"])
     gender = st.selectbox("Your gender?", ["Male", "Female", "Nonbinary", "Prefer not to say"])
     
+    bio = st.text_input("Please enter a short bio about yourself.",)
+    
     clean_self = st.slider("How clean do you keep your room? (1 = Messy, 10 = Spotless)", 1, 10, 5)
     
     # 3am -> 3pm in 1 hr intervals
