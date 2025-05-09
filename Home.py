@@ -15,6 +15,13 @@ if "responses" not in st.session_state:
     st.session_state.responses = {}
 
 # ---------- START OF HOME PAGE ----------
+
+image = Image.open("assets/logo.png")
+# cropped_image = image.crop((0, 200, image.width, image.height - 300))  # Crop 50px from top andbottom
+st.image(image, width=300)
+
+st.markdown("<br>", unsafe_allow_html=True)
+
 image_path = "assets/roominate_banner.jpg"
 # image_path = "assets/roominate_banner_no_text.png"
 # image_path = "assets/roominate_full_room_banner.jpg"
@@ -32,8 +39,6 @@ else:
     st.info(
         "no image called roominate_banner.jpg"
     )
-
-# TODO: ADD SOME BRANDING HERE PROBABLY...
 
 st.title("First time with us?")
 st.markdown(
